@@ -80,7 +80,18 @@ def checkNumerosValidos(sudoku):
 
 def checkFilas(sudoku):
 
+    for fila in sudoku:
 
+        posicionNumero = 0
+
+        for numero in fila:
+            # Averiguo si el numero se encuentra en el resto de la fila /lista (siguiente posicion hasta la ultima)
+            if numero in fila[posicionNumero+1:]:
+                return False
+            else:
+                posicionNumero += 1
+
+    return True
 
 
 def checkColumnas(sudoku):
