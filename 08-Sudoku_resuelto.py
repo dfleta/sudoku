@@ -106,6 +106,11 @@ def check_sudoku(sudoku):
 
 # Casos test:
 
+print esCuadrado(correct)
+#>>> True
+print checkFilas(incorrect)
+#>>> False
+
 # print checkFilas(correct)
 #>>> True
 # print checkFilas(incorrect)
