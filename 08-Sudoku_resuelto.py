@@ -108,12 +108,12 @@ def check_sudoku(sudoku):
 
 print esCuadrado(correct)
 #>>> True
-print checkFilas(incorrect)
+print esCuadrado(incorrect)
 #>>> False
 
-# print checkFilas(correct)
+print checkFilas(correct)
 #>>> True
-# print checkFilas(incorrect)
+print checkFilas(incorrect)
 #>>> False
 
 # print checkColumnas(correct)
