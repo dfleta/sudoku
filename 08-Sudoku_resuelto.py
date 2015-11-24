@@ -106,9 +106,9 @@ def check_sudoku(sudoku):
 
 # Casos test:
 
-# print checkFilas(correct)
+print checkFilas(correct)
 #>>> True
-# print checkFilas(incorrect)
+print checkFilas(incorrect)
 #>>> False
 
 # print checkColumnas(correct)
